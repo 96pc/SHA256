@@ -19,3 +19,4 @@ if __name__ == "__main__":
 #include "../WtCore/WtHelper.h"
 
 #include "../Share/StrUtil.hpp"
+#include "../Includes/WTSDataDef.hpp"
