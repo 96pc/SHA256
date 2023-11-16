@@ -18,3 +18,4 @@ if __name__ == "__main__":
 #include "WtExecRunner.h"
 #include "../WtCore/WtHelper.h"
 
+#include "../Share/StrUtil.hpp"
