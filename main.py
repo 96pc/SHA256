@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
 #include "../Share/StrUtil.hpp"
 #include "../Includes/WTSDataDef.hpp"
+#include "../Includes/WTSVariant.hpp"
