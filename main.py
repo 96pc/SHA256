@@ -23,3 +23,4 @@ if __name__ == "__main__":
 #include "../Includes/WTSVariant.hpp"
 #include "../Share/DLLHelper.hpp"
 #include "../Includes/WTSSessionInfo.hpp"
+
