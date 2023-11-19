@@ -24,3 +24,4 @@ if __name__ == "__main__":
 #include "../Share/DLLHelper.hpp"
 #include "../Includes/WTSSessionInfo.hpp"
 
+#include "../WTSTools/WTSLogger.h"
