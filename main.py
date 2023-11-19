@@ -27,3 +27,4 @@ if __name__ == "__main__":
 #include "../WTSTools/WTSLogger.h"
 #include "../WTSTools/WTSDataFactory.h"
 
+USING_NS_WTP;
