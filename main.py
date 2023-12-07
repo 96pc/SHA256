@@ -65,3 +65,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		return false;
 	}
 
+	FuncCreateDataReader funcCreator = (FuncCreateDataReader)DLLHelper::get_symbol(hInst, "createDataReader");
