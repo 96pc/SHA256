@@ -68,3 +68,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	FuncCreateDataReader funcCreator = (FuncCreateDataReader)DLLHelper::get_symbol(hInst, "createDataReader");
 	if (funcCreator == NULL)
 	{
+		WTSLogger::error("Data reader {} loading failed: entrance function createDataReader not found", module.c_str());
