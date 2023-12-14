@@ -85,3 +85,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 
 	_s_info = _runner->get_session_info(cfg->getCString("session"), false);
 
+	return true;
