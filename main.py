@@ -87,3 +87,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 
 	return true;
 }
+
