@@ -110,3 +110,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 }
 
 uint32_t WtSimpDataMgr::get_date()
+{
