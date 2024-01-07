@@ -113,3 +113,4 @@ uint32_t WtSimpDataMgr::get_date()
 {
 	return _cur_date;
 }
+
