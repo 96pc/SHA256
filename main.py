@@ -114,3 +114,4 @@ uint32_t WtSimpDataMgr::get_date()
 	return _cur_date;
 }
 
+uint32_t WtSimpDataMgr::get_min_time()
