@@ -115,3 +115,4 @@ uint32_t WtSimpDataMgr::get_date()
 }
 
 uint32_t WtSimpDataMgr::get_min_time()
+{
