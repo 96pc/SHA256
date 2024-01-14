@@ -123,3 +123,4 @@ uint32_t WtSimpDataMgr::get_secs()
 {
 	return _cur_secs;
 }
+
