@@ -127,3 +127,4 @@ uint32_t WtSimpDataMgr::get_secs()
 void WtSimpDataMgr::reader_log(WTSLogLevel ll, const char* message)
 {
 	WTSLogger::log_raw(ll, message);
+}
