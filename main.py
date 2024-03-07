@@ -131,3 +131,4 @@ void WtSimpDataMgr::reader_log(WTSLogLevel ll, const char* message)
 
 void WtSimpDataMgr::on_bar(const char* code, WTSKlinePeriod period, WTSBarStruct* newBar)
 {
+
