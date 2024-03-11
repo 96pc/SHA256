@@ -133,3 +133,4 @@ void WtSimpDataMgr::on_bar(const char* code, WTSKlinePeriod period, WTSBarStruct
 {
 
 }
+
