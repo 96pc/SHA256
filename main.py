@@ -136,3 +136,4 @@ void WtSimpDataMgr::on_bar(const char* code, WTSKlinePeriod period, WTSBarStruct
 
 void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 {
+	if (curTick == NULL)
