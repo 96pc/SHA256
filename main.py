@@ -139,3 +139,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	if (curTick == NULL)
 		return;
 
+	if (_rt_tick_map == NULL)
