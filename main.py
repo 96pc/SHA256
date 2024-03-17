@@ -140,3 +140,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 		return;
 
 	if (_rt_tick_map == NULL)
+		_rt_tick_map = DataCacheMap::create();
