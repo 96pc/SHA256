@@ -145,3 +145,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	_rt_tick_map->add(stdCode, curTick, true);
 
 	uint32_t uDate = curTick->actiondate();
+	uint32_t uTime = curTick->actiontime();
