@@ -151,3 +151,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	{
 		return;
 	}
+
