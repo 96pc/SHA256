@@ -153,3 +153,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	}
 
 	_cur_date = uDate;
+	_cur_act_time = uTime;
