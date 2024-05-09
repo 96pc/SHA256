@@ -156,3 +156,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	_cur_act_time = uTime;
 
 	uint32_t _cur_raw_time = _cur_act_time / 100000;
+	uint32_t _cur_secs = _cur_act_time % 100000;
