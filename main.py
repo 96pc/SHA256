@@ -160,3 +160,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	uint32_t minutes = _s_info->timeToMinutes(_cur_raw_time);
 	bool isSecEnd = _s_info->isLastOfSection(_cur_raw_time);
 	if (isSecEnd)
+	{
