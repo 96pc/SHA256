@@ -167,3 +167,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	_cur_min_time = _s_info->minuteToTime(minutes);
 	_cur_tdate = curTick->tradingdate();
 }
+
