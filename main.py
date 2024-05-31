@@ -168,3 +168,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 	_cur_tdate = curTick->tradingdate();
 }
 
+WTSTickData* WtSimpDataMgr::grab_last_tick(const char* code)
