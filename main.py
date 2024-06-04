@@ -170,3 +170,4 @@ void WtSimpDataMgr::handle_push_quote(const char* stdCode, WTSTickData* curTick)
 
 WTSTickData* WtSimpDataMgr::grab_last_tick(const char* code)
 {
+	if (_rt_tick_map == NULL)
