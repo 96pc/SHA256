@@ -175,3 +175,4 @@ WTSTickData* WtSimpDataMgr::grab_last_tick(const char* code)
 
 	WTSTickData* curTick = (WTSTickData*)_rt_tick_map->get(code);
 	if (curTick == NULL)
+		return NULL;
