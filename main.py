@@ -181,3 +181,4 @@ WTSTickData* WtSimpDataMgr::grab_last_tick(const char* code)
 	return curTick;
 }
 
+
