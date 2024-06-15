@@ -184,3 +184,4 @@ WTSTickData* WtSimpDataMgr::grab_last_tick(const char* code)
 
 WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, uint64_t etime /*= 0*/)
 {
+	if (_reader == NULL)
