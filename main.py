@@ -188,3 +188,4 @@ WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, ui
 		return NULL;
  * \date 2020/03/30
  *
+ * \brief
