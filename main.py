@@ -191,3 +191,4 @@ WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, ui
  * \brief
  */
 #include "WtSimpDataMgr.h"
+#include "WtExecRunner.h"
