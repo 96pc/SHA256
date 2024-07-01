@@ -195,3 +195,4 @@ WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, ui
 #include "../WtCore/WtHelper.h"
 
 #include "../Share/StrUtil.hpp"
+#include "../Includes/WTSDataDef.hpp"
