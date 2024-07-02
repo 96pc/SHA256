@@ -200,3 +200,4 @@ WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, ui
 #include "../Share/DLLHelper.hpp"
 #include "../Includes/WTSSessionInfo.hpp"
 
+#include "../WTSTools/WTSLogger.h"
