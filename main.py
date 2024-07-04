@@ -205,3 +205,4 @@ WTSTickSlice* WtSimpDataMgr::get_tick_slice(const char* code, uint32_t count, ui
 
 USING_NS_WTP;
 
+
