@@ -215,3 +215,4 @@ WtSimpDataMgr::WtSimpDataMgr()
 	, _rt_tick_map(NULL)
 {
 }
+
