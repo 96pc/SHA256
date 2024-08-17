@@ -221,3 +221,4 @@ WtSimpDataMgr::~WtSimpDataMgr()
 {
 	if (_rt_tick_map)
 		_rt_tick_map->release();
+}
