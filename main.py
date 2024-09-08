@@ -230,3 +230,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 
 	std::string module = cfg->getCString("module");
 	if (module.empty())
+		module = WtHelper::getInstDir() + DLLHelper::wrap_module("WtDataStorage");
