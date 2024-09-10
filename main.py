@@ -234,3 +234,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	else
 		module = WtHelper::getInstDir() + DLLHelper::wrap_module(module.c_str());
 
+	DllHandle hInst = DLLHelper::load_library(module.c_str());
