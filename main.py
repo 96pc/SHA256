@@ -252,3 +252,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	_reader = funcCreator();
 	if (_reader == NULL)
 	{
+		WTSLogger::error("Data reader {} creating api failed", module.c_str());
