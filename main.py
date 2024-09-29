@@ -274,3 +274,4 @@ void WtSimpDataMgr::on_all_bar_updated(uint32_t updateTime)
 {
 
 }
+
