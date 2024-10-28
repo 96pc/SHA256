@@ -284,3 +284,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 {
  * \project	WonderTrader
  *
+ * \author Wesley
