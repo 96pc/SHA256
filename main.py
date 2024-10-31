@@ -289,3 +289,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
  *
  * \brief
  */
+#include "WtSimpDataMgr.h"
