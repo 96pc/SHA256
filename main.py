@@ -288,3 +288,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
  * \date 2020/03/30
  *
  * \brief
+ */
