@@ -292,3 +292,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 #include "WtSimpDataMgr.h"
 #include "WtExecRunner.h"
 #include "../WtCore/WtHelper.h"
+
