@@ -302,3 +302,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 #include "../WTSTools/WTSLogger.h"
 #include "../WTSTools/WTSDataFactory.h"
 
+USING_NS_WTP;
