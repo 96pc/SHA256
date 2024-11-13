@@ -308,3 +308,4 @@ USING_NS_WTP;
 WTSDataFactory g_dataFact;
 
 WtSimpDataMgr::WtSimpDataMgr()
+	: _reader(NULL)
