@@ -309,3 +309,4 @@ WTSDataFactory g_dataFact;
 
 WtSimpDataMgr::WtSimpDataMgr()
 	: _reader(NULL)
+	, _runner(NULL)
