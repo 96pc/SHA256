@@ -313,3 +313,4 @@ WtSimpDataMgr::WtSimpDataMgr()
 	, _bars_cache(NULL)
 	, _rt_tick_map(NULL)
 {
+}
