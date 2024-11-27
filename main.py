@@ -328,3 +328,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		return false;
 
 	std::string module = cfg->getCString("module");
+	if (module.empty())
