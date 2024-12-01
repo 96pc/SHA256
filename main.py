@@ -339,3 +339,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		WTSLogger::error("Data reader {} loading failed", module.c_str());
 		return false;
 	}
+
