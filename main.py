@@ -349,3 +349,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	}
 
 	_reader = funcCreator();
+	if (_reader == NULL)
