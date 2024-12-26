@@ -354,3 +354,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		WTSLogger::error("Data reader {} creating api failed", module.c_str());
 		DLLHelper::free_library(hInst);
 		return false;
+	}
