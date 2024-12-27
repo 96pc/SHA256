@@ -359,3 +359,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	_reader->init(cfg, this);
 
 	_s_info = _runner->get_session_info(cfg->getCString("session"), false);
+
