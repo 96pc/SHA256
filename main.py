@@ -384,3 +384,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
  * \project	WonderTrader
  *
  * \author Wesley
+ * \date 2020/03/30
