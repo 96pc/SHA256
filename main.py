@@ -394,3 +394,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 
 #include "../Share/StrUtil.hpp"
 #include "../Includes/WTSDataDef.hpp"
+#include "../Includes/WTSVariant.hpp"
