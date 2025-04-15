@@ -404,3 +404,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 USING_NS_WTP;
 
 
+WTSDataFactory g_dataFact;
