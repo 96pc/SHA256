@@ -416,3 +416,4 @@ WtSimpDataMgr::WtSimpDataMgr()
 
 
 WtSimpDataMgr::~WtSimpDataMgr()
+{
