@@ -421,3 +421,4 @@ WtSimpDataMgr::~WtSimpDataMgr()
 		_rt_tick_map->release();
 }
 
+bool WtSimpDataMgr::initStore(WTSVariant* cfg)
