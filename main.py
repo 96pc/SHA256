@@ -424,3 +424,4 @@ WtSimpDataMgr::~WtSimpDataMgr()
 bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 {
 	if (cfg == NULL)
+		return false;
