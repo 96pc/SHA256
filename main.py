@@ -446,3 +446,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		DLLHelper::free_library(hInst);
 		return false;
 	}
+
