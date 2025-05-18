@@ -447,3 +447,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 		return false;
 	}
 
+	_reader = funcCreator();
