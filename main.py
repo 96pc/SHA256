@@ -456,3 +456,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 	}
 
 	_reader->init(cfg, this);
+
