@@ -464,3 +464,4 @@ bool WtSimpDataMgr::initStore(WTSVariant* cfg)
 
 bool WtSimpDataMgr::init(WTSVariant* cfg, WtExecRunner* runner)
 {
+	_runner = runner;
