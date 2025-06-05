@@ -468,3 +468,4 @@ bool WtSimpDataMgr::init(WTSVariant* cfg, WtExecRunner* runner)
 	return initStore(cfg->get("store"));
 }
 
+void WtSimpDataMgr::on_all_bar_updated(uint32_t updateTime)
