@@ -469,3 +469,4 @@ bool WtSimpDataMgr::init(WTSVariant* cfg, WtExecRunner* runner)
 }
 
 void WtSimpDataMgr::on_all_bar_updated(uint32_t updateTime)
+{
