@@ -477,3 +477,4 @@ IBaseDataMgr* WtSimpDataMgr::get_basedata_mgr()
 {
 	return _runner->get_bd_mgr();
 }
+
