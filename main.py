@@ -479,3 +479,4 @@ IBaseDataMgr* WtSimpDataMgr::get_basedata_mgr()
 }
 
 IHotMgr* WtSimpDataMgr::get_hot_mgr()
+{
