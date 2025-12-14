@@ -491,3 +491,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 #include "WtExecRunner.h"
 #include "../WtCore/WtHelper.h"
 
+#include "../Share/StrUtil.hpp"
