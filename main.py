@@ -495,3 +495,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 #include "../Includes/WTSDataDef.hpp"
 #include "../Includes/WTSVariant.hpp"
 #include "../Share/DLLHelper.hpp"
+#include "../Includes/WTSSessionInfo.hpp"
