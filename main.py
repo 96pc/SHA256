@@ -497,3 +497,4 @@ IHotMgr* WtSimpDataMgr::get_hot_mgr()
 #include "../Share/DLLHelper.hpp"
 #include "../Includes/WTSSessionInfo.hpp"
 
+#include "../WTSTools/WTSLogger.h"
